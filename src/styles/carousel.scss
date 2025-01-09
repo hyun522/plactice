@@ -1,5 +1,9 @@
 .slider-container {
-  width: 126.4px;
-  background-color: pink;
-  margin: 0 50px;
+  margin: 0 500px;
+}
+.slick-slide > div {
+  margin: 0 10px; /* 좌우 마진 추가 */
+}
+.slick-list {
+  margin: 0 -10px; /* 전/체 슬라이더 정렬을 위해 좌우 마진 보정 */
 }

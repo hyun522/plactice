@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Carousel = () => {
   const settings = {
-    autoplay: true,
+    // autoplay: true,
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -53,3 +53,4 @@ const Carousel = () => {
 };
 
 export default Carousel;
+
