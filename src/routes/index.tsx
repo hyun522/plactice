@@ -1,3 +1,4 @@
+import EditorPage from "../pages/EditorPage";
 import HomePage from "../pages/HomePage";
 import LoginPage from "../pages/LoginPage";
 import SidePage from "../pages/SidePage";
@@ -14,5 +15,9 @@ export const routes = [
   {
     path: "/side",
     element: <SidePage />,
+  },
+  {
+    path: "/editor",
+    element: <EditorPage />,
   },
 ];
