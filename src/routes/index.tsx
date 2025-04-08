@@ -2,6 +2,7 @@ import EditorPage from "../pages/EditorPage";
 import HomePage from "../pages/HomePage";
 import LoginPage from "../pages/LoginPage";
 import SidePage from "../pages/SidePage";
+import PaginationPage from "../pages/PaginationPage";
 
 export const routes = [
   {
@@ -19,5 +20,9 @@ export const routes = [
   {
     path: "/editor",
     element: <EditorPage />,
+  },
+  {
+    path: "/pagination",
+    element: <PaginationPage itemsPerPage={5} />,
   },
 ];
